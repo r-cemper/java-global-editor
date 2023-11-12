@@ -12,6 +12,6 @@ docker-compose up -d --build && docker-compose logs -f
 ````
 ## How to Test it
 ````
-docker -compose -exec iris java gedi
+docker-compose exec iris java gedi
 ````
 
