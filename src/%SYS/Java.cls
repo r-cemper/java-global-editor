@@ -3,7 +3,7 @@ Class %SYS.Java
 
 ClassMethod QueryF() As %String
 {
-	set:0 val=""  
+#;	set:0 val=""  
 #; just because COS Qualiaatry doesn't understand $QUERY wit a return value
 	set res=$Query(@$ZR,1,val)
 	if $d(val) set res = res_" = "_##class(%Utility).FormatString(val)
@@ -12,7 +12,7 @@ ClassMethod QueryF() As %String
 
 ClassMethod QueryR() As %String
 {
-	set:0 val=""  
+#;	set:0 val=""  
 #; just because COS Qualiaatry doesn't understand $QUERY wit a return value
 	set %rcc=$ZR
 	if %rcc'["(" set %rcc=%rcc_"("""")"
