@@ -1,13 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Export generator="Cache" version="25">
-  <Document name="run-container-command-execution.ZPM">
+  <Document name="java-global-editor.ZPM">
     <Module>
-      <Name>run-container-command-execution</Name>
-	  <Description>Run Command in Container</Description> 
+      <Name>java-global-editor</Name>
+	  <Description>Edit Global with CRUD++</Description> 
       <Version>0.0.1</Version>
       <Packaging>module</Packaging>
       <SourcesRoot>src</SourcesRoot>
-      <Resource Name="zrccx.MAC"/>
+      <Resource Name="dc.MultiD.GBL"/>
+      <Resource Name="%SYS.Java.CLS"/>
+      <FileCopy Name="src/gedi.java" Target="${libdir}"/>
     </Module>
   </Document>
 </Export>

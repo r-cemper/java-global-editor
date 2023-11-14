@@ -4,11 +4,10 @@ services:
     build: 
       context: .
       dockerfile: Dockerfile
-    command: --check-caps false --ISCAgent false
+    command: --ISCAgent false -b /rcc/src/pre.sh
     restart: always
-    ports:
-      - '41773:1972'
-      - '42773:52773'
-      - 53773
+    ports: 
+      - 41773:1972
+      - 42773:52773
     volumes:
       - ./:/rcc
