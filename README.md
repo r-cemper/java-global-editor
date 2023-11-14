@@ -8,29 +8,9 @@ immediately. For this purpose, I have extended the API with a Tree Viewer
 aka. ZWrite and $Query Style Navigator Forward and Reverse operating  
 also at any subtree level.
 Finally, an option to ZKill to delete the content of a Global Node   
-without deleting the subtree below. This required a small helper  
-class on the server side as an extension to the default API.
-<pre>
-        Welcome to IRIS NativeAPI Global Editor
-
->>> serverIP [127.0.0.1]:
->>> serverPORT [1972]:
->>> namespace [USER]:
->>> username [_SYSTEM]:
->>> password [SYS]:
-
-        Connected to Namespace USER on Server 127.0.0.1:1972
-
- 0 = Select Global
- 1 = Select Subscripts
- 2 = Query Forward
- 3 = Query Reverse
- 4 = Show Global Tree
- 5 = Update Global Value
- 6 = Delete Global Value
- 7 = Delete Global Tree
- * = Exit Demo
-</pre>
+without deleting the subtree below. This required a small helper   
+class on the server side as an extension to the default API.   
+![image](https://github.com/rcemper/java-global-editor/assets/146277387/a8851c94-823b-4f13-861f-1189b065abc6)
 
 ## Prerequisites
 Make sure you have [git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) and [Docker desktop](https://www.docker.com/products/docker-desktop) installed.
