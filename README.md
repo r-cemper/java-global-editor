@@ -1,3 +1,5 @@
+[![Quality Gate Status](https://community.objectscriptquality.com/api/project_badges/measure?project=intersystems_iris_community%2Fjava-global-editor&metric=alert_status)](https://community.objectscriptquality.com/dashboard?id=intersystems_iris_community%2Fjava-global-editor)
+
 As another contribution to the Java Contest, I decided to present a   
 CRUD++ Global Editor based on IRIS Native API for Java.  
 ++ because it's a little bit more than just **C**reate, **R**ead, **U**pdate, **D**elete  
