@@ -10,7 +10,7 @@ also at any subtree level.
 Finally, an option to ZKill to delete the content of a Global Node   
 without deleting the subtree below. This required a small helper  
 class on the server side as an extension to the default API.
-````
+<pre>
         Welcome to IRIS NativeAPI Global Editor
 
 >>> serverIP [127.0.0.1]:
@@ -30,7 +30,7 @@ class on the server side as an extension to the default API.
  6 = Delete Global Value
  7 = Delete Global Tree
  * = Exit Demo
-````
+</pre>
 
 ## Prerequisites
 Make sure you have [git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) and [Docker desktop](https://www.docker.com/products/docker-desktop) installed.
