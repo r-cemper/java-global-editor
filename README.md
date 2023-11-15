@@ -28,4 +28,4 @@ docker-compose up -d --build && docker-compose logs -f
 ````
 docker-compose exec iris java gedi
 ````
-
+[Article in DC](https://community.intersystems.com/post/java-global-editor)
