@@ -28,6 +28,12 @@ RUN export CLASSPATH
 USER ${ISC_PACKAGE_MGRUSER}
 
 COPY --chown=${ISC_PACKAGE_MGRUSER} src src
+
+USER root
+RUN chmod ugo+x /opt/irisapp/src/*.sh
+
+USER ${ISC_PACKAGE_MGRUSER}
+
 COPY module.xml module.xml
 COPY iris.script iris.script
 
