@@ -36,9 +36,8 @@ do ^javademo
 This runs in two asynchronous processes. If you miss some output  
 just enter **?** at the prompt to repaint the last display.
 
-<img widht="600" src="https://github.com/rcemper/java-global-editor/assets/146277387/16b4e6ee-dc61-4b11-972a-69459beedd5f">
-
-
+<img widht="600" src="https://github.com/rcemper/java-global-editor/assets/146277387/16b4e6ee-dc61-4b11-972a-69459beedd5f">     
+  
 [Article in DC](https://community.intersystems.com/post/java-global-editor)
 
 [Video](https://youtu.be/FE4MMGFkp4A)    
