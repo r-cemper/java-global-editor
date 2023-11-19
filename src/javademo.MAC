@@ -1,0 +1,35 @@
+ROUTINE javademo
+javademo ; mimic ubuntu command line
+	kill
+	set cpipe="|CPIPE|1"
+ 		,cmd="cd /opt/irisapp/ && java gedi > g.log"
+ 	open cpipe:(cmd:/WRITE)
+	do show0
+	for  {
+		use 0 read "?:",opt,!
+		if opt="?" do show continue
+		use cpipe write opt,!
+		do show
+		if opt="*" quit
+		} 
+ 	do show
+	use cpipe write !!
+	close cpipe
+	quit
+
+show0
+	 set log="/opt/irisapp/g.log"
+	 	,lastline=0
+show
+	set $ZT="eof"
+	hang 1
+	open log:("R"::$C(10)):1 else  use 0 write "no log found",!	quit
+	for  {
+		use log:lastline read line
+		set lastline=$zpos 
+		use 0 write line,!
+		}
+eof	
+	close log
+	u 0 w "~~~~~~~~~~~~~~~~~~~~~~~~~",!
+	quit	 	
