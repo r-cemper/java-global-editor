@@ -28,6 +28,19 @@ docker-compose up -d --build && docker-compose logs -f
 ````
 docker-compose exec iris java gedi
 ````
+If you prefer to test with **WebTerminal** type
+````
+do ^javademo
+````
+**HINT:**
+This runs in two asynchronous processes. If you miss some output  
+just enter **?** at the prompt to repaint the last display.
+
+
 [Article in DC](https://community.intersystems.com/post/java-global-editor)
 
-[Video](https://youtu.be/FE4MMGFkp4A)
+[Video](https://youtu.be/FE4MMGFkp4A)    
+
+[Demo Server SMP](https://nacl-jv.demo.community.intersystems.com/csp/sys/UtilHome.csp)    
+[Demo Server WebTerminal](https://nacl-jv.community.intersystems.com/terminal/)     
+
