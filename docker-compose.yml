@@ -4,7 +4,8 @@ services:
     build: 
       context: .
       dockerfile: Dockerfile
-    command: --ISCAgent false -b /rcc/src/pre.sh
+    command: --ISCAgent false 
+# -b /rcc/src/pre.sh
     restart: always
     ports: 
       - 41773:1972
