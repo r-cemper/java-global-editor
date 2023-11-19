@@ -42,6 +42,6 @@ just enter **?** at the prompt to repaint the last display.
 
 [Video](https://youtu.be/FE4MMGFkp4A)    
 
-[Demo Server SMP](https://ava-global-editor.demo.community.intersystems.com/csp/sys/UtilHome.csp)    
-[Demo Server WebTerminal](https://ava-global-editor.community.intersystems.com/terminal/)     
+[Demo Server SMP](https://java-global-editor.demo.community.intersystems.com/csp/sys/UtilHome.csp)    
+[Demo Server WebTerminal](https://java-global-editor.community.intersystems.com/terminal/)     
 
