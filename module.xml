@@ -4,11 +4,12 @@
     <Module>
       <Name>java-global-editor</Name>
 	  <Description>Edit Global with CRUD++</Description> 
-      <Version>0.0.1</Version>
+      <Version>0.0.2</Version>
       <Packaging>module</Packaging>
       <SourcesRoot>src</SourcesRoot>
       <Resource Name="dc.MultiD.GBL"/>
       <Resource Name="%SYS.Java.CLS"/>
+	  <Resource Name="javademo.MAC"/>
       <FileCopy Name="src/gedi.java" Target="${libdir}"/>
     </Module>
   </Document>
