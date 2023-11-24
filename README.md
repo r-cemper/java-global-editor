@@ -40,7 +40,7 @@ just enter **?** at the prompt to repaint the last display.
   
 [Article in DC](https://community.intersystems.com/post/java-global-editor)
 
-[Video](https://youtu.be/FE4MMGFkp4A)    
+[Video](https://www.youtube.com/watch?v=eUVsxYVKw8Q) 
 
 [Demo Server SMP](https://java-global-editor.demo.community.intersystems.com/csp/sys/UtilHome.csp)    
 [Demo Server WebTerminal](https://java-global-editor.demo.community.intersystems.com/terminal/)     
