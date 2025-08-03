@@ -28,7 +28,7 @@ docker-compose up -d --build && docker-compose logs -f
 ````
 docker-compose exec iris java gedi
 ````
-If you prefer to test with **WebTerminal** type
+If you prefer to test with [iterm](http://localhost:42773/iterm/) type
 ````
 do ^javademo
 ````
@@ -41,7 +41,3 @@ just enter **?** at the prompt to repaint the last display.
 [Article in DC](https://community.intersystems.com/post/java-global-editor)
 
 [Video](https://www.youtube.com/watch?v=eUVsxYVKw8Q) 
-
-[Demo Server SMP](https://java-global-editor.demo.community.intersystems.com/csp/sys/UtilHome.csp)    
-[Demo Server WebTerminal](https://java-global-editor.demo.community.intersystems.com/terminal/)     
-
