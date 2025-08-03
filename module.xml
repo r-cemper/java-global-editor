@@ -4,7 +4,7 @@
     <Module>
       <Name>java-global-editor</Name>
 	  <Description>Edit Global with CRUD++</Description> 
-      <Version>0.0.2</Version>
+      <Version>0.0.3</Version>
       <Packaging>module</Packaging>
       <SourcesRoot>src</SourcesRoot>
       <Resource Name="dc.MultiD.GBL"/>
@@ -14,3 +14,4 @@
     </Module>
   </Document>
 </Export>
+
